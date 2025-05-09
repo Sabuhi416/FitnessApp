@@ -1,0 +1,192 @@
+**Views/Workout/List.cshtml**
+```cshtml
+<div class="container">
+    <h1 class="mb-3">Workout Library</h1>
+    <p class="lead mb-4">Browse our collection of professionally designed workouts</p>
+    <div class="row mb-4">
+        <div class="col-md-6">
+            <input type="text" class="form-control" placeholder="Search workouts..." id="workoutSearch">
+        </div>
+        <div class="col-md-6 text-md-end mt-3 mt-md-0">
+            <div class="btn-group" role="group" id="categoryFilters">
+                <button type="button" class="btn btn-outline-primary active" data-category="all">All</button>
+                <button type="button" class="btn btn-outline-primary" data-category="strength">Strength</button>
+                <button type="button" class="btn btn-outline-primary" data-category="cardio">Cardio</button>
+                <button type="button" class="btn btn-outline-primary" data-category="flexibility">Flexibility</button>
+                <button type="button" class="btn btn-outline-primary" data-category="hiit">HIIT</button>
+                <button type="button" class="btn btn-outline-primary" data-category="core">Core</button>
+                <button type="button" class="btn btn-outline-primary" data-category="yoga">Yoga</button>
+            </div>
+        </div>
+    </div>
+    <ul class="nav nav-tabs mb-4" id="workoutTabs" role="tablist">
+        <li class="nav-item" role="presentation">
+            <a class="nav-link active" id="featured-tab" data-bs-toggle="tab" href="#featured" role="tab">Featured</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="popular-tab" data-bs-toggle="tab" href="#popular" role="tab">Popular</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="my-workouts-tab" data-bs-toggle="tab" href="#my-workouts" role="tab">My Workouts</a>
+        </li>
+    </ul>
+    <div class="tab-content" id="workoutTabsContent">
+        <!-- Featured Tab -->
+        <div class="tab-pane fade show active" id="featured" role="tabpanel">
+            <div class="row" id="workoutCards">
+                <div class="col-md-3 mb-4">
+                    <div class="card" data-category="strength">
+                        <img src="https://via.placeholder.com/300x200.png?text=Full+Body+Strength" class="card-img-top" alt="Full Body Strength Preview">
+                        <div class="card-body">
+                            <h5 class="card-title">Full Body Strength</h5>
+                            <p class="card-text">45 min • Intermediate<br>8 exercises</p>
+                            <a href="/Workout/Details/1" class="btn btn-primary">View Workout</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card" data-category="cardio">
+                        <img src="https://via.placeholder.com/300x200.png?text=HIIT+Cardio+Blast" class="card-img-top" alt="HIIT Cardio Blast Preview">
+                        <div class="card-body">
+                            <h5 class="card-title">HIIT Cardio Blast</h5>
+                            <p class="card-text">30 min • Advanced<br>10 exercises</p>
+                            <a href="/Workout/Details/2" class="btn btn-primary">View Workout</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card" data-category="flexibility">
+                        <img src="https://via.placeholder.com/300x200.png?text=Beginner+Bodyweight" class="card-img-top" alt="Beginner Bodyweight Preview">
+                        <div class="card-body">
+                            <h5 class="card-title">Beginner Bodyweight</h5>
+                            <p class="card-text">35 min • Beginner<br>6 exercises</p>
+                            <a href="/Workout/Details/3" class="btn btn-primary">View Workout</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card" data-category="core">
+                        <img src="https://via.placeholder.com/300x200.png?text=Core+Crusher" class="card-img-top" alt="Core Crusher Preview">
+                        <div class="card-body">
+                            <h5 class="card-title">Core Crusher</h5>
+                            <p class="card-text">25 min • Intermediate<br>7 exercises</p>
+                            <a href="/Workout/Details/4" class="btn btn-primary">View Workout</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="#" class="card-link">Load More</a>
+            </div>
+        </div>
+        <!-- Popular Tab -->
+        <div class="tab-pane fade" id="popular" role="tabpanel">
+            <div class="row" id="workoutCards">
+                <div class="col-md-3 mb-4">
+                    <div class="card" data-category="yoga">
+                        <img src="https://via.placeholder.com/300x200.png?text=Yoga+Flow" class="card-img-top" alt="Yoga Flow Preview">
+                        <div class="card-body">
+                            <h5 class="card-title">Yoga Flow</h5>
+                            <p class="card-text">40 min • Beginner<br>9 exercises</p>
+                            <a href="/Workout/Details/5" class="btn btn-primary">View Workout</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card" data-category="strength">
+                        <img src="https://via.placeholder.com/300x200.png?text=Power+Strength" class="card-img-top" alt="Power Strength Preview">
+                        <div class="card-body">
+                            <h5 class="card-title">Power Strength</h5>
+                            <p class="card-text">50 min • Advanced<br>12 exercises</p>
+                            <a href="/Workout/Details/6" class="btn btn-primary">View Workout</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card" data-category="cardio">
+                        <img src="https://via.placeholder.com/300x200.png?text=Cardio+Endurance" class="card-img-top" alt="Cardio Endurance Preview">
+                        <div class="card-body">
+                            <h5 class="card-title">Cardio Endurance</h5>
+                            <p class="card-text">60 min • Intermediate<br>10 exercises</p>
+                            <a href="/Workout/Details/7" class="btn btn-primary">View Workout</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card" data-category="hiit">
+                        <img src="https://via.placeholder.com/300x200.png?text=Quick+HIIT" class="card-img-top" alt="Quick HIIT Preview">
+                        <div class="card-body">
+                            <h5 class="card-title">Quick HIIT</h5>
+                            <p class="card-text">20 min • Advanced<br>5 exercises</p>
+                            <a href="/Workout/Details/8" class="btn btn-primary">View Workout</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="#" class="card-link">Load More</a>
+            </div>
+        </div>
+        <!-- My Workouts Tab -->
+        <div class="tab-pane fade" id="my-workouts" role="tabpanel">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="mb-4">Your Upcoming Workouts</h3>
+                    <div class="card mb-3">
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                            <div>
+                                <h5 class="card-title mb-1">Morning Yoga Flow</h5>
+                                <p class="card-text mb-0">Scheduled for Mon, May 12<br>30 min • Beginner</p>
+                            </div>
+                            <a href="/Workout/Details/9" class="btn btn-primary">Start Workout</a>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                            <div>
+                                <h5 class="card-title mb-1">Evening Strength Session</h5>
+                                <p class="card-text mb-0">Scheduled for Wed, May 14<br>45 min • Intermediate</p>
+                            </div>
+                            <a href="/Workout/Details/10" class="btn btn-primary">Start Workout</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const filters = document.querySelectorAll('#categoryFilters .btn');
+        const cards = document.querySelectorAll('#workoutCards .card');
+        const searchInput = document.getElementById('workoutSearch');
+
+        filters.forEach(filter => {
+            filter.addEventListener('click', function () {
+                filters.forEach(btn => btn.classList.remove('active'));
+                this.classList.add('active');
+
+                const category = this.getAttribute('data-category');
+                cards.forEach(card => {
+                    const cardCategory = card.getAttribute('data-category');
+                    if (category === 'all' || category === cardCategory) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        searchInput.addEventListener('input', function () {
+            const query = this.value.toLowerCase();
+            cards.forEach(card => {
+                const title = card.querySelector('.card-title').textContent.toLowerCase();
+                const shouldShow = title.includes(query) && (document.querySelector('#categoryFilters .active').getAttribute('data-category') === 'all' || card.getAttribute('data-category') === document.querySelector('#categoryFilters .active').getAttribute('data-category'));
+                card.style.display = shouldShow ? 'block' : 'none';
+            });
+        });
+    });
+</script>
+```
