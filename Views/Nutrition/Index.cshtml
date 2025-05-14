@@ -1,68 +1,182 @@
-<div class="hero-section">
-    <div class="container">
-        <h1>Fuel your body with the right nutrition</h1>
-        <p>Plan your meals, track your macros, and stay on top of your nutrition goals with FitnessApp.</p>
-        <a href="/Account/Register" class="btn">Get Started Free</a>
-    </div>
-</div>
 <div class="container">
-    <h2 class="nutrition-section-title">Personalized Meal Planning</h2>
-    <p class="nutrition-section-subtext">Create meal plans that fit your goals and lifestyle.</p>
-    <div class="row">
-        <div class="col-md-4">
-            <div class="card">
-                <div class="card-body text-center">
-                    <h5 class="card-title">Build Your Meal Plan</h5>
-                    <p class="card-text">Design a weekly meal plan tailored to your dietary needs and fitness goals.</p>
-                    <a href="/Nutrition/CreatePlan" class="nutrition-card-link">Create Plan</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card">
-                <div class="card-body text-center">
-                    <h5 class="card-title">Track Your Macros</h5>
-                    <p class="card-text">Monitor your protein, carbs, and fats to ensure you're on track.</p>
-                    <a href="/Nutrition/TrackMacros" class="nutrition-card-link">Track Now</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card">
-                <div class="card-body text-center">
-                    <h5 class="card-title">Explore Recipes</h5>
-                    <p class="card-text">Discover healthy and delicious recipes to keep your meals exciting.</p>
-                    <a href="/Nutrition/Recipes" class="nutrition-card-link">Explore Recipes</a>
-                </div>
-            </div>
+    <div class="row mb-4">
+        <div class="col">
+            <h1>Nutrition</h1>
+            <p class="text-muted">Track your meals and manage your diet</p>
         </div>
     </div>
-    <div class="mt-5">
-        <h2 class="nutrition-section-title">Track Macros & Calories</h2>
-        <p class="nutrition-section-subtext">Monitor your daily intake to ensure you're hitting your targets.</p>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="dashboard-widget">
-                    <h5>Macro Breakdown</h5>
-                    <div class="macro-circle">40% Protein</div>
-                    <p>Carbs: 35% | Fats: 25%</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="dashboard-widget">
-                    <h5>Calorie Goal</h5>
-                    <div class="calorie-bar">
-                        <div class="calorie-bar-fill"></div>
+
+    <!-- Main Dashboard -->
+    <div class="row">
+        <!-- Left Column - Tracking Summary -->
+        <div class="col-md-4 mb-4">
+            <!-- Calories Card -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Calories</h5>
+                    <h2 class="mb-0">1450 <span class="text-muted fs-6">/ 2200</span></h2>
+                    <p class="text-muted">750 calories remaining</p>
+                    
+                    <div class="progress mb-4">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 65%"></div>
                     </div>
-                    <p>1500 / 2000 kcal</p>
+                    
+                    <div class="d-flex justify-content-between mb-2">
+                        <span>Protein</span>
+                        <span>85g / 120g</span>
+                    </div>
+                    <div class="progress mb-3">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 70%"></div>
+                    </div>
+                    
+                    <div class="d-flex justify-content-between mb-2">
+                        <span>Carbs</span>
+                        <span>160g / 220g</span>
+                    </div>
+                    <div class="progress mb-3">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 73%"></div>
+                    </div>
+                    
+                    <div class="d-flex justify-content-between mb-2">
+                        <span>Fat</span>
+                        <span>45g / 70g</span>
+                    </div>
+                    <div class="progress mb-3">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 64%"></div>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="dashboard-widget">
-                    <h5>Daily Log</h5>
-                    <p>Breakfast: Oatmeal (300 kcal)</p>
-                    <p>Lunch: Chicken Salad (450 kcal)</p>
+            
+            <!-- Water Intake Card -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Water Intake</h5>
+                    <h2 class="text-center mb-1">4 <span class="text-muted fs-6">/ 8</span></h2>
+                    <p class="text-center text-muted mb-3">glasses of water</p>
+                    
+                    <div class="d-flex justify-content-between mb-3">
+                        <span class="water-glass filled"></span>
+                        <span class="water-glass filled"></span>
+                        <span class="water-glass filled"></span>
+                        <span class="water-glass filled"></span>
+                        <span class="water-glass"></span>
+                        <span class="water-glass"></span>
+                        <span class="water-glass"></span>
+                        <span class="water-glass"></span>
+                    </div>
+                    
+                    <button class="btn btn-outline-primary w-100">Add Glass</button>
                 </div>
+            </div>
+            
+            <!-- Quick Access Card -->
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Quick Access</h5>
+                    <div class="list-group">
+                        <button class="list-group-item list-group-item-action">View Meal Plans</button>
+                        <button class="list-group-item list-group-item-action">Browse Recipes</button>
+                        <button class="list-group-item list-group-item-action">View Progress</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Right Column - Meals -->
+        <div class="col-md-8">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h3>Today's Meals</h3>
+                <button class="btn btn-primary">Add Food</button>
+            </div>
+            
+            <!-- Breakfast Section -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h4>Breakfast</h4>
+                        <span class="text-muted">7:30 AM</span>
+                    </div>
+                    
+                    <div class="meal-item mb-3 pb-3 border-bottom">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span>Oatmeal with Berries</span>
+                            <span>320 cal</span>
+                        </div>
+                        <div class="text-muted">P: 12g  C: 45g  F: 8g</div>
+                    </div>
+                    
+                    <div class="meal-item mb-3">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span>Greek Yogurt</span>
+                            <span>120 cal</span>
+                        </div>
+                        <div class="text-muted">P: 15g  C: 6g  F: 0g</div>
+                    </div>
+                    
+                    <div class="d-flex">
+                        <button class="btn btn-outline-primary me-2">Add Food</button>
+                        <button class="btn btn-outline-secondary">Edit</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Lunch Section -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h4>Lunch</h4>
+                        <span class="text-muted">12:30 PM</span>
+                    </div>
+                    
+                    <div class="meal-item mb-3 pb-3 border-bottom">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span>Chicken Salad</span>
+                            <span>450 cal</span>
+                        </div>
+                        <div class="text-muted">P: 35g  C: 25g  F: 20g</div>
+                    </div>
+                    
+                    <div class="meal-item mb-3">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span>Whole Grain Bread</span>
+                            <span>180 cal</span>
+                        </div>
+                        <div class="text-muted">P: 8g  C: 30g  F: 3g</div>
+                    </div>
+                    
+                    <div class="d-flex">
+                        <button class="btn btn-outline-primary me-2">Add Food</button>
+                        <button class="btn btn-outline-secondary">Edit</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Snack Section -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h4>Snack</h4>
+                        <span class="text-muted">3:30 PM</span>
+                    </div>
+                    
+                    <div class="meal-item mb-3">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span>Protein Bar</span>
+                            <span>200 cal</span>
+                        </div>
+                        <div class="text-muted">P: 15g  C: 20g  F: 7g</div>
+                    </div>
+                    
+                    <div class="d-flex">
+                        <button class="btn btn-outline-primary me-2">Add Food</button>
+                        <button class="btn btn-outline-secondary">Edit</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Add Meal Button -->
+            <div class="text-end mb-4">
+                <button class="btn btn-primary">Add Meal</button>
             </div>
         </div>
     </div>
