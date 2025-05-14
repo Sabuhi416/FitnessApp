@@ -36,6 +36,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"k63s6mfr9o"},{"Name":"integrity","Value":"sha256-5HI8aB\u002BYjNrpsCYCzLCMIBkA8L5uwM1UDtlNMvWv6YE="},{"Name":"label","Value":"_content/FitnessApp/FitnessApp.bundle.scp.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1128"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00225HI8aB\u002BYjNrpsCYCzLCMIBkA8L5uwM1UDtlNMvWv6YE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 May 2025 16:58:39 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/FitnessApp/images/logo.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\logo.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-i6qxoCZ9uyIzI3KuXi6lfR\u002BtX2tCwqbVkgkTT60ljls="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"110503"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022i6qxoCZ9uyIzI3KuXi6lfR\u002BtX2tCwqbVkgkTT60ljls=\u0022"},{"Name":"Last-Modified","Value":"Sun, 11 May 2025 06:01:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/FitnessApp/images/logo.jynhbvhtce.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\logo.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jynhbvhtce"},{"Name":"integrity","Value":"sha256-i6qxoCZ9uyIzI3KuXi6lfR\u002BtX2tCwqbVkgkTT60ljls="},{"Name":"label","Value":"_content/FitnessApp/images/logo.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"110503"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022i6qxoCZ9uyIzI3KuXi6lfR\u002BtX2tCwqbVkgkTT60ljls=\u0022"},{"Name":"Last-Modified","Value":"Sun, 11 May 2025 06:01:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/FitnessApp/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

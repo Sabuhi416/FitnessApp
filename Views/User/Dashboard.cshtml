@@ -1,30 +1,70 @@
-<h2>User Dashboard</h2>
+@* Updated User Dashboard *@
+
+<h2 class="mb-4">My Goals</h2>
+<p class="text-muted mb-4">Track your progress and achieve your fitness ambitions</p>
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <div>
+        <button class="btn btn-outline-secondary active">Active Goals</button>
+        <button class="btn btn-outline-secondary">Completed</button>
+    </div>
+    <a href="/Goals/Create" class="btn btn-primary">New Goal</a>
+</div>
+
 <div class="row">
-    <div class="col-md-4">
-        <div class="card">
+    <div class="col-md-4 mb-4">
+        <div class="card shadow-sm">
             <div class="card-body">
-                <h5 class="card-title">Recent Workouts</h5>
-                <ul class="list-group">
-                    <li class="list-group-item">Workout 1 - 2025-05-01</li>
-                    <li class="list-group-item">Workout 2 - 2025-05-03</li>
-                </ul>
+                <h5 class="card-title">Lose 5kg</h5>
+                <p class="text-muted">WEIGHT</p>
+                <div class="progress mb-2">
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 40%">40%</div>
+                </div>
+                <div class="d-flex justify-content-between small text-muted">
+                    <span>Current: 2 kg</span>
+                    <span>Target: 5 kg</span>
+                </div>
+                <p class="mt-2 text-muted">37 days remaining</p>
+                <a href="#" class="btn btn-outline-primary btn-sm me-2">Update Progress</a>
+                <a href="#" class="btn btn-outline-secondary btn-sm">Details</a>
             </div>
         </div>
     </div>
-    <div class="col-md-4">
-        <div class="card">
+
+    <div class="col-md-4 mb-4">
+        <div class="card shadow-sm">
             <div class="card-body">
-                <h5 class="card-title">Active Fitness Plan</h5>
-                <p class="card-text">Beginner Strength Plan - 4 weeks remaining</p>
+                <h5 class="card-title">Bench Press 100kg</h5>
+                <p class="text-muted">STRENGTH</p>
+                <div class="progress mb-2">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 85%">85%</div>
+                </div>
+                <div class="d-flex justify-content-between small text-muted">
+                    <span>Current: 85 kg</span>
+                    <span>Target: 100 kg</span>
+                </div>
+                <p class="mt-2 text-muted">67 days remaining</p>
+                <a href="#" class="btn btn-outline-primary btn-sm me-2">Update Progress</a>
+                <a href="#" class="btn btn-outline-secondary btn-sm">Details</a>
             </div>
         </div>
     </div>
-    <div class="col-md-4">
-        <div class="card">
+
+    <div class="col-md-4 mb-4">
+        <div class="card shadow-sm">
             <div class="card-body">
-                <h5 class="card-title">Profile</h5>
-                <p class="card-text">View or edit your profile details.</p>
-                <a href="/User/Profile" class="btn btn-primary">Edit Profile</a>
+                <h5 class="card-title">Run 5km in 25 minutes</h5>
+                <p class="text-muted">CARDIO</p>
+                <div class="progress mb-2">
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 70%">70%</div>
+                </div>
+                <div class="d-flex justify-content-between small text-muted">
+                    <span>Current: 28 minutes</span>
+                    <span>Target: 25 minutes</span>
+                </div>
+                <p class="mt-2 text-muted">84 days remaining</p>
+                <a href="#" class="btn btn-outline-primary btn-sm me-2">Update Progress</a>
+                <a href="#" class="btn btn-outline-secondary btn-sm">Details</a>
             </div>
         </div>
     </div>

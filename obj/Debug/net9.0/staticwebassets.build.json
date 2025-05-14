@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DXb8gyfHLKFu+YuDtQ8wWzd1tFe5BlYHp6rvXPqwe9k=",
+  "Hash": "q1MqMTEYEvyJJ38Y5BVvFkc96BhLiog+9JydHPlb72g=",
   "Source": "FitnessApp",
   "BasePath": "_content/FitnessApp",
   "Mode": "Default",
@@ -1443,6 +1443,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Acer\\Desktop\\FitnessApp\\wwwroot\\images\\logo.jpg",
+      "SourceId": "FitnessApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Acer\\Desktop\\FitnessApp\\wwwroot\\",
+      "BasePath": "_content/FitnessApp",
+      "RelativePath": "images/logo#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jynhbvhtce",
+      "Integrity": "i6qxoCZ9uyIzI3KuXi6lfR+tX2tCwqbVkgkTT60ljls=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo.jpg"
     },
     {
       "Identity": "C:\\Users\\Acer\\Desktop\\FitnessApp\\wwwroot\\js\\site.js",
@@ -3916,6 +3937,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-unKZtw6GQEIhwTFgsZpt6FAXR2HQdMssTwMChyTh9pQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/logo.jpg",
+      "AssetFile": "C:\\Users\\Acer\\Desktop\\FitnessApp\\wwwroot\\images\\logo.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "110503"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"i6qxoCZ9uyIzI3KuXi6lfR+tX2tCwqbVkgkTT60ljls=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 06:01:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-i6qxoCZ9uyIzI3KuXi6lfR+tX2tCwqbVkgkTT60ljls="
+        }
+      ]
+    },
+    {
+      "Route": "images/logo.jynhbvhtce.jpg",
+      "AssetFile": "C:\\Users\\Acer\\Desktop\\FitnessApp\\wwwroot\\images\\logo.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "110503"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"i6qxoCZ9uyIzI3KuXi6lfR+tX2tCwqbVkgkTT60ljls=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 06:01:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jynhbvhtce"
+        },
+        {
+          "Name": "label",
+          "Value": "images/logo.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-i6qxoCZ9uyIzI3KuXi6lfR+tX2tCwqbVkgkTT60ljls="
         }
       ]
     },
