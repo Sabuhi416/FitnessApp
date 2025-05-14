@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "q1MqMTEYEvyJJ38Y5BVvFkc96BhLiog+9JydHPlb72g=",
+  "Hash": "g/3V0dlhds1eOLbSXFW6YQhvOXQeiIP0JYts+DWFhrY=",
   "Source": "FitnessApp",
   "BasePath": "_content/FitnessApp",
   "Mode": "Default",
@@ -122,12 +122,12 @@
       "OriginalItemSpec": "C:\\Users\\Acer\\Desktop\\FitnessApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Acer\\Desktop\\FitnessApp\\obj\\Debug\\net9.0\\compressed\\1x3xecglb3-3mfzdkz48f.gz",
+      "Identity": "C:\\Users\\Acer\\Desktop\\FitnessApp\\obj\\Debug\\net9.0\\compressed\\1x3xecglb3-fhf05wslcw.gz",
       "SourceId": "FitnessApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Acer\\Desktop\\FitnessApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/FitnessApp",
-      "RelativePath": "css/site#[.{fingerprint=3mfzdkz48f}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=fhf05wslcw}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -136,8 +136,8 @@
       "RelatedAsset": "C:\\Users\\Acer\\Desktop\\FitnessApp\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "egtfpe845x",
-      "Integrity": "3nMbQntKDU5e6gLxgAruiVwkjxXAiK+Lj/NNh73YoG8=",
+      "Fingerprint": "71csjjzhru",
+      "Integrity": "67qpXNovrtNAKe46cHpOZP7rMhjd9HERhmqtdhHep2k=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Acer\\Desktop\\FitnessApp\\wwwroot\\css\\site.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "3mfzdkz48f",
-      "Integrity": "y2YHow2zJvxF1vfnkrDqedbrcxuVuAP8jzO7JT++SuY=",
+      "Fingerprint": "fhf05wslcw",
+      "Integrity": "Y/MhlB6LWcAXURv+6k6mwsX//iumi5XRQ0MWmU1AsJ0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -2749,13 +2749,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.3mfzdkz48f.css",
-      "AssetFile": "C:\\Users\\Acer\\Desktop\\FitnessApp\\obj\\Debug\\net9.0\\compressed\\1x3xecglb3-3mfzdkz48f.gz",
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\Acer\\Desktop\\FitnessApp\\obj\\Debug\\net9.0\\compressed\\1x3xecglb3-fhf05wslcw.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000870322019"
+          "Quality": "0.000738552437"
         }
       ],
       "ResponseHeaders": [
@@ -2765,19 +2765,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1148"
+          "Value": "1353"
         },
         {
           "Name": "ETag",
-          "Value": "\"3nMbQntKDU5e6gLxgAruiVwkjxXAiK+Lj/NNh73YoG8=\""
+          "Value": "\"67qpXNovrtNAKe46cHpOZP7rMhjd9HERhmqtdhHep2k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 18:26:41 GMT"
+          "Value": "Wed, 14 May 2025 05:11:11 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -2793,26 +2793,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"y2YHow2zJvxF1vfnkrDqedbrcxuVuAP8jzO7JT++SuY=\""
+          "Value": "W/\"Y/MhlB6LWcAXURv+6k6mwsX//iumi5XRQ0MWmU1AsJ0=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "3mfzdkz48f"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-y2YHow2zJvxF1vfnkrDqedbrcxuVuAP8jzO7JT++SuY="
+          "Value": "sha256-Y/MhlB6LWcAXURv+6k6mwsX//iumi5XRQ0MWmU1AsJ0="
         }
       ]
     },
     {
-      "Route": "css/site.3mfzdkz48f.css",
+      "Route": "css/site.css",
       "AssetFile": "C:\\Users\\Acer\\Desktop\\FitnessApp\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2822,7 +2814,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4290"
+          "Value": "5110"
         },
         {
           "Name": "Content-Type",
@@ -2830,11 +2822,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"y2YHow2zJvxF1vfnkrDqedbrcxuVuAP8jzO7JT++SuY=\""
+          "Value": "\"Y/MhlB6LWcAXURv+6k6mwsX//iumi5XRQ0MWmU1AsJ0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 18:26:41 GMT"
+          "Value": "Wed, 14 May 2025 05:11:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y/MhlB6LWcAXURv+6k6mwsX//iumi5XRQ0MWmU1AsJ0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "C:\\Users\\Acer\\Desktop\\FitnessApp\\obj\\Debug\\net9.0\\compressed\\1x3xecglb3-fhf05wslcw.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1353"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"67qpXNovrtNAKe46cHpOZP7rMhjd9HERhmqtdhHep2k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 May 2025 05:11:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-67qpXNovrtNAKe46cHpOZP7rMhjd9HERhmqtdhHep2k="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.fhf05wslcw.css",
+      "AssetFile": "C:\\Users\\Acer\\Desktop\\FitnessApp\\obj\\Debug\\net9.0\\compressed\\1x3xecglb3-fhf05wslcw.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000738552437"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1353"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"67qpXNovrtNAKe46cHpOZP7rMhjd9HERhmqtdhHep2k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 May 2025 05:11:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Y/MhlB6LWcAXURv+6k6mwsX//iumi5XRQ0MWmU1AsJ0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fhf05wslcw"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y/MhlB6LWcAXURv+6k6mwsX//iumi5XRQ0MWmU1AsJ0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.fhf05wslcw.css",
+      "AssetFile": "C:\\Users\\Acer\\Desktop\\FitnessApp\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5110"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y/MhlB6LWcAXURv+6k6mwsX//iumi5XRQ0MWmU1AsJ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 May 2025 05:11:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2844,7 +2981,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3mfzdkz48f"
+          "Value": "fhf05wslcw"
         },
         {
           "Name": "label",
@@ -2852,13 +2989,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-y2YHow2zJvxF1vfnkrDqedbrcxuVuAP8jzO7JT++SuY="
+          "Value": "sha256-Y/MhlB6LWcAXURv+6k6mwsX//iumi5XRQ0MWmU1AsJ0="
         }
       ]
     },
     {
-      "Route": "css/site.3mfzdkz48f.css.gz",
-      "AssetFile": "C:\\Users\\Acer\\Desktop\\FitnessApp\\obj\\Debug\\net9.0\\compressed\\1x3xecglb3-3mfzdkz48f.gz",
+      "Route": "css/site.fhf05wslcw.css.gz",
+      "AssetFile": "C:\\Users\\Acer\\Desktop\\FitnessApp\\obj\\Debug\\net9.0\\compressed\\1x3xecglb3-fhf05wslcw.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2867,7 +3004,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1148"
+          "Value": "1353"
         },
         {
           "Name": "Content-Type",
@@ -2875,11 +3012,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3nMbQntKDU5e6gLxgAruiVwkjxXAiK+Lj/NNh73YoG8=\""
+          "Value": "\"67qpXNovrtNAKe46cHpOZP7rMhjd9HERhmqtdhHep2k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 18:26:41 GMT"
+          "Value": "Wed, 14 May 2025 05:11:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2897,7 +3034,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3mfzdkz48f"
+          "Value": "fhf05wslcw"
         },
         {
           "Name": "label",
@@ -2905,144 +3042,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-3nMbQntKDU5e6gLxgAruiVwkjxXAiK+Lj/NNh73YoG8="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\Acer\\Desktop\\FitnessApp\\obj\\Debug\\net9.0\\compressed\\1x3xecglb3-3mfzdkz48f.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000870322019"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1148"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"3nMbQntKDU5e6gLxgAruiVwkjxXAiK+Lj/NNh73YoG8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 18:26:41 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"y2YHow2zJvxF1vfnkrDqedbrcxuVuAP8jzO7JT++SuY=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-y2YHow2zJvxF1vfnkrDqedbrcxuVuAP8jzO7JT++SuY="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\Acer\\Desktop\\FitnessApp\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4290"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"y2YHow2zJvxF1vfnkrDqedbrcxuVuAP8jzO7JT++SuY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 18:26:41 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-y2YHow2zJvxF1vfnkrDqedbrcxuVuAP8jzO7JT++SuY="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\Acer\\Desktop\\FitnessApp\\obj\\Debug\\net9.0\\compressed\\1x3xecglb3-3mfzdkz48f.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1148"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"3nMbQntKDU5e6gLxgAruiVwkjxXAiK+Lj/NNh73YoG8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 18:26:41 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-3nMbQntKDU5e6gLxgAruiVwkjxXAiK+Lj/NNh73YoG8="
+          "Value": "sha256-67qpXNovrtNAKe46cHpOZP7rMhjd9HERhmqtdhHep2k="
         }
       ]
     },

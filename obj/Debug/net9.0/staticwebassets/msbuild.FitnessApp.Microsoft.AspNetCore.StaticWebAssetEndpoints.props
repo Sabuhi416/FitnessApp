@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/FitnessApp/css/site.3mfzdkz48f.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3mfzdkz48f"},{"Name":"integrity","Value":"sha256-y2YHow2zJvxF1vfnkrDqedbrcxuVuAP8jzO7JT\u002B\u002BSuY="},{"Name":"label","Value":"_content/FitnessApp/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4290"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022y2YHow2zJvxF1vfnkrDqedbrcxuVuAP8jzO7JT\u002B\u002BSuY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 May 2025 18:26:41 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/FitnessApp/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-y2YHow2zJvxF1vfnkrDqedbrcxuVuAP8jzO7JT\u002B\u002BSuY="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4290"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022y2YHow2zJvxF1vfnkrDqedbrcxuVuAP8jzO7JT\u002B\u002BSuY=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 May 2025 18:26:41 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Y/MhlB6LWcAXURv\u002B6k6mwsX//iumi5XRQ0MWmU1AsJ0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5110"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Y/MhlB6LWcAXURv\u002B6k6mwsX//iumi5XRQ0MWmU1AsJ0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 14 May 2025 05:11:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/FitnessApp/css/site.fhf05wslcw.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fhf05wslcw"},{"Name":"integrity","Value":"sha256-Y/MhlB6LWcAXURv\u002B6k6mwsX//iumi5XRQ0MWmU1AsJ0="},{"Name":"label","Value":"_content/FitnessApp/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5110"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Y/MhlB6LWcAXURv\u002B6k6mwsX//iumi5XRQ0MWmU1AsJ0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 14 May 2025 05:11:11 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/FitnessApp/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
